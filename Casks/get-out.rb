@@ -15,11 +15,11 @@ cask "get-out" do
   on_macos do
     on_intel do
       url "https://github.com/jflowers/get-out/releases/download/v#{version}/get-out_#{version}_darwin_amd64.tar.gz"
-      sha256 "3c84a6f8659f96d986d65b25022c6a6c0214f1bbab7c45aff102ba9277b4fb91"
+      sha256 "8bdd646acfa3886ff8cdb54297851921ffcea67d0df340e79224f458b66ee7b5"
     end
     on_arm do
       url "https://github.com/jflowers/get-out/releases/download/v#{version}/get-out_#{version}_darwin_arm64.tar.gz"
-      sha256 "510d1e3a21018e8f83e2ce093d73e4e2dd51b2c76e2d260c25def153208ff7e6"
+      sha256 "ca79d95c115a6ca6a4a9b77b0717bbdec6fc85116d699cf731988291a6cc896d"
     end
   end
 
