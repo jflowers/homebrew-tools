@@ -3,7 +3,7 @@ cask "get-out" do
   name "get-out"
   desc "Export Slack messages (DMs, groups, channels) to organized Google Docs"
   homepage "https://github.com/jflowers/get-out"
-  version "1.2.1"
+  version "1.2.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,22 +15,22 @@ cask "get-out" do
   on_macos do
     on_intel do
       url "https://github.com/jflowers/get-out/releases/download/v#{version}/get-out_#{version}_darwin_amd64.tar.gz"
-      sha256 "d8956b8c4dc0d729f0f15005cebc95d07aa49732ea14b4ab399bb8568b29b763"
+      sha256 "0e41454c719d7c95fdac86a5767982d12dad2945a7588845e3d88dbc6e6033d0"
     end
     on_arm do
       url "https://github.com/jflowers/get-out/releases/download/v#{version}/get-out_#{version}_darwin_arm64.tar.gz"
-      sha256 "7260efe4702a2b437020f685dd99792c73a5f3e39753518ee9d69b3d8ae61292"
+      sha256 "3a3d82334e24bcb6ff83ad6dc4ca8a8b5ea414834d1f906828ea796ba8f99fcb"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/jflowers/get-out/releases/download/v#{version}/get-out_#{version}_linux_amd64.tar.gz"
-      sha256 "d987e04c375fffd5856cf6173340b829a42642bc1d24a04daa6392cf421f8716"
+      sha256 "56683a36df8f56e0d14f0d66bf3c44f5ee064c80163f9134c178ec799e08f256"
     end
     on_arm do
       url "https://github.com/jflowers/get-out/releases/download/v#{version}/get-out_#{version}_linux_arm64.tar.gz"
-      sha256 "93e024ede28537241ece49f88e8ec2eb508c3c49e490c24fd3151ff70446c2b9"
+      sha256 "574a92e458b3cf24527c15f343ae30b5266ccf1ac8e30015885c1e348c56c6c0"
     end
   end
 
