@@ -1,7 +1,7 @@
 # Written by gh-hud's release workflow (macos/cask.sh). Edits are overwritten.
 cask "gh-hud" do
-  version "0.3.1"
-  sha256 "bd20c605a75b703635dab7361558eba75a885af20f8540bc46f0cfed07c1141f"
+  version "0.3.2"
+  sha256 "2968218ae095eef473175fcd2198a07798f5d9fcccdbcd55f2d1a6a06cfc1166"
 
   url "https://github.com/jflowers/gh-hud/releases/download/v#{version}/gh-hud-app_#{version}.zip"
   name "gh-hud"
@@ -13,7 +13,7 @@ cask "gh-hud" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "gh-hud.app"
 end
