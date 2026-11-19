@@ -1,7 +1,7 @@
 # Written by gh-hud's release workflow (macos/cask.sh). Edits are overwritten.
 cask "gh-hud" do
-  version "0.3.8"
-  sha256 "012503becee09758f3ff3030c43764f534227f9d5ae4c83220ba45adb68e7b83"
+  version "0.3.9"
+  sha256 "7e509258a122f17aa0a442865eb533bc8d2a0e52f20db041e56f27d002240674"
 
   url "https://github.com/jflowers/gh-hud/releases/download/v#{version}/gh-hud-app_#{version}.zip"
   name "gh-hud"
