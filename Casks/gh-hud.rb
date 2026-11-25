@@ -1,7 +1,7 @@
 # Written by jflowers/gh-hud's release (jflowers/ship mac-app-release.yml). Edits are overwritten.
 cask "gh-hud" do
   version "0.3.23"
-  sha256 "6dd9e3a554a3e987a708da21d37520fc777b5171aea753377be3eb62df1a6264"
+  sha256 "b77c73372e086849f21416d5494aa4508790b2259c19e9c83a7fefee37b63d60"
 
   url "https://github.com/jflowers/gh-hud/releases/download/v#{version}/gh-hud-app_#{version}.zip"
   name "gh-hud"
